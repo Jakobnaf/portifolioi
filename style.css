@@ -1,0 +1,66 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/*endrer på hvordan hele siden skal se ut*/
+body{
+    margin: 5px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faeac9;
+}
+
+
+
+/* velger hvordan ul skal se ut*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    background-color: #333;
+    border-radius: 5px;
+}
+/* endrer på størrelsen til nav baren*/
+li {
+    padding: 10px;
+}
+/* endrer på farge og hvordan skriften ser ut inni nav baren */
+li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center text alignment */
+    padding: 10px; /* Padding inside the footer */
+}
+
+.social-media ul li a {
+    color: #fff; /* White color for links */
+    text-decoration: none; /* No underline on links */
+    margin: 05px; /* Margin around the links */
+}
+
+.social-media ul li a {
+    font-size: 24px; /* Size of the font awesome icons */
+    background-color: #fff;
+}
+
+footer a:hover i.fa-instagram {
+    color: #e13048; 
+}
+
+
+footer a:hover i.fa-facebook-f {
+    color: #3b5998; 
+}
+
+
